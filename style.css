@@ -42,31 +42,33 @@ nav a {
 }
 
 main {
-  width: 75vw;
   text-align: center;
   margin: auto;
 }
 
 .hero {
-  background-image: 
-      linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255,0.5));
-      url("https://i.pinimg.com/1200x/09/a5/7b/09a57b9902332e20c0a6024b99878937.jpg");
-  background-position: center;
-  
+  background-image: url("./assets/tea-plate.png");
+      /*linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255,0.5)); */
+      /* url("https://i.pinimg.com/1200x/09/a5/7b/09a57b9902332e20c0a6024b99878937.jpg"); */
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: auto;
+  height: 80vw;
 }
 
 h1 {
   font-family: "Monsieur La Doulaise", cursive;
-  font-size: 4rem;
-  margin: 4rem 3rem 3rem 1rem;
-  padding-top: 5rem;
+  font-size: 10vw;
+  margin: 4rem 3rem 2rem 3rem;
+  padding-top: 25vw;
 }
 
 h2 {
   font-family: "Nunito", Helvetica, Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.75vw;
   text-transform: uppercase;
-  max-width: 50vw;
+  max-width: 40vw;
   min-width: 200px;
   margin: 1rem auto 3rem;
   padding-bottom: 5rem;
@@ -81,12 +83,18 @@ h3 {
   margin: 1rem auto;
 }
 
+.details {
+  width: 75vw;
+  margin: 6rem auto 1rem auto;
+}
+
 .details p {
   margin: 1rem;
 }
 
 .button {
-  margin-top: 5rem;
+  width: 75vw;
+  margin: 5rem auto;
 }
 
 .button a {
