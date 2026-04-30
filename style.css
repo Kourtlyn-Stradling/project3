@@ -46,6 +46,7 @@ main {
   margin: auto;
 }
 
+/* HOME PAGE SELECTORS */
 .hero {
   background-image: url("./assets/tea-plate.png");
       /*linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255,0.5)); */
@@ -106,6 +107,13 @@ h3 {
   padding: 1rem 1.5rem;
   border-radius: 10rem;
   color: #f6f3ee;
+}
+
+/* SCHEDULE PAGE SELECTORS */
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
 }
 
 footer {
