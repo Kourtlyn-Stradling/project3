@@ -75,7 +75,7 @@ main {
   padding-bottom: 5rem;
 }
 
-h3 {
+.details h3 {
   font-family: "Nunito", Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -170,8 +170,9 @@ h4 {
 /* ABOUT PAGE SELECTORS */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
   gap: 3rem;
+  justify-items: center;
 }
 
 .flip-card {
@@ -215,12 +216,15 @@ h4 {
 }
 
 .flip-card h3 {
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
   font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .flip-card p {
   font-size: 0.85rem;
   text-align: left;
+  margin-top: 0.75rem;
 }
 
 footer {
