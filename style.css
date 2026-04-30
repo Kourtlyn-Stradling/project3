@@ -168,6 +168,28 @@ h4 {
   margin-top: 0.25rem;
 }
 
+/* ABOUT PAGE SELECTORS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3rem;
+}
+
+.card {
+  background-color: #ebcb9d;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.card h3 {
+  font-size: 1rem;
+}
+
+.card p {
+  font-size: 0.85rem;
+  text-align: left;
+}
+
 footer {
   background-color: #e8dcca;
   margin-top: 10rem;
