@@ -209,7 +209,7 @@ h4 {
 }
 
 .flip-card-back {
-  background-color: #ffffff;
+  background-color: #EBCB9D;
   padding: 1rem;
   border-radius: 10px;
   transform: rotateY(180deg);
