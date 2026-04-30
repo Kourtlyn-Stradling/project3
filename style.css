@@ -130,6 +130,43 @@ h2 {
   margin: 1rem 0 5rem;
 }
 
+.schedule-main-content {
+  width: 75vw;
+  margin: auto;
+}
+
+.schedule-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+.schedule-item {
+  background-color: #95b7bf;
+  margin-bottom: 1rem; 
+  padding: 1rem;
+  border-radius: 10px;
+  border-left: 15px solid #6997A5;
+  max-width: 26rem;
+  min-width: 360px;
+}
+
+h4 {
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.schedule-item p {
+  font-size: 0.75rem;
+  text-align: left;
+  margin-top: 0.25rem;
+}
+
 footer {
   background-color: #e8dcca;
   margin-top: 10rem;
