@@ -116,6 +116,20 @@ h3 {
   gap: 2rem;
 }
 
+h1 {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-size: 5rem;
+  margin: 5rem 0 1rem;
+}
+
+h2 {
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin: 1rem 0 5rem;
+}
+
 footer {
   background-color: #e8dcca;
   margin-top: 10rem;
