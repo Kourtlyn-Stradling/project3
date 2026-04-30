@@ -171,7 +171,7 @@ h4 {
 /* ABOUT PAGE SELECTORS */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  grid-template-columns: repeat(2, minmax(275px, 1fr));
   gap: 3rem;
   justify-items: center;
 }
@@ -225,14 +225,14 @@ h4 {
 #card-2-front {
   background-image: url("./assets/Lindsey-113.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
 #card-3-front {
   background-image: url("./assets/Lindsey-165.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
