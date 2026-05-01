@@ -322,6 +322,13 @@ footer a {
     footer {
       margin-top: 5rem;
     }
-
-
+    
+    .details h3 {
+      max-width: 50vw;
+    }
+    
+    h1 {
+      margin-top: 3rem;
+    }
+}
 
