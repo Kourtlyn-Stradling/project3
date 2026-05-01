@@ -67,7 +67,8 @@ main {
 }
 
 .tea-party {
-  width: 600px;
+  padding-top: 25vw;
+  width: 45vw;
 }
 
 /* ✨ THIS is the drawing stroke */
@@ -375,6 +376,11 @@ footer a {
     .hero h1 {
       font-size: 2.5rem;
       padding-top: 0;
+    }
+    
+    .tea-party {
+      padding-top: 3vh;
+      width: 250px
     }
     
     .hero h2 {
