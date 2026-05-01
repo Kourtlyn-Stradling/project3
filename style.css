@@ -339,6 +339,15 @@ footer a {
     
     nav {
       max-width: 50vw;
+      font-size: 3.5vw;
+    }
+    
+    h1 {
+      font-size: 16vw;
+    }
+    
+    h2 {
+      font-size: 3vw;
     }
 }
 
