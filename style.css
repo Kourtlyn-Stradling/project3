@@ -391,6 +391,7 @@ footer a {
     
     .hero {
       background-image: none;
+      height: auto;
     }
     
     .details {
@@ -411,5 +412,22 @@ footer a {
     
     .schedule-item {
       min-width: 200px;
+    }
+    
+    .button {
+      font-size: 5vw;
+    }
+    
+    .button a {
+      transition: none;
+    }
+    
+    .button a:hover {
+      font-size: 5vw;
+    }
+    
+    .sources {
+      display: flex;
+      flex-direction: column;
     }
 }
