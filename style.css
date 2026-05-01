@@ -263,6 +263,7 @@ h4 {
   margin-top: 0.75rem;
 }
 
+/* FOOTER STYLES */
 footer {
   background-color: #e8dcca;
   margin-top: 10rem;
@@ -276,6 +277,22 @@ footer {
   font-family: "Nunito", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 0.75rem;
+}
+
+.sources a:link {
+  color: #52322c;
+}
+
+.sources a:visited {
+  color: #844D48;
+}
+
+.sources a:hover {
+  font-weight: 400;
+}
+
+.sources a:active {
+  text-decoration: underline;
 }
 
 footer a {
