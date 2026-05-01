@@ -375,5 +375,19 @@ footer a {
       font-size: 1.25rem;
       max-width: 75vw;
     }
+    
+    .schedule-grid {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .schedule-item {
+      min-width: 200px;
+    }
+    
+    .flip-card:active .flip-card-inner {
+      transform: rotateY(180deg);
+    }
 }
-
