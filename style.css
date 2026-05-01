@@ -308,5 +308,20 @@ footer a {
   padding-right: 1rem;
 }
 
+@media (max-width: 840px) {
+    .schedule-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .events {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    footer {
+      margin-top: 5rem;
+    }
+
 
 
