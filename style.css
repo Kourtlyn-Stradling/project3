@@ -42,6 +42,11 @@ nav {
 nav a {
   text-decoration: none;
   color: #52322c;
+  transition: border-bottom 100ms ease-in;
+}
+
+nav a:hover {
+  border-bottom: 5px solid #95b7bf;
 }
 
 main {
